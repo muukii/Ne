@@ -3,13 +3,13 @@ import UIKit
 
 extension UIColor {
 
-  public enum NeonColorAdjustment {
+  public enum NeonColorAdjustment: CaseIterable {
     case brighter
     case normal
     case darker
   }
 
-  public enum NeonColorName {
+  public enum NeonColorName: CaseIterable {
     case yellow
     case red
     case pink
